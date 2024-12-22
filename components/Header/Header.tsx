@@ -22,7 +22,7 @@ const Header = () => {
       <div className="w-full md:h-28  h-[80px] flex items-center justify-around max-md:px-2 px-5 bg-[#F5F5F5] md:bg-transparent ">
         {/* LOGO */}
         <div className=" w-[100%] md:w-auto hidden md:inline-block">
-          <Image src="/logo.png" alt="Logo" width={150} height={80} />
+          <Image src="/Logo.png" alt="Logo" width={150} height={80} />
         </div>
 
         {/* Logo2  visiblw for small screen*/}

@@ -54,7 +54,7 @@ const About = () => {
 
         <div className="mt-14 md:mt-0">
           <Image
-            src="/Aboutus.jpg"
+            src="/aboutus.jpg"
             alt="ABout us"
             width={520}
             height={350}
@@ -65,7 +65,7 @@ const About = () => {
 
       {/*//? box two */}
 
-      <div className="w-full h-auto pt-4 lg:pt-0 flex flex-col md:items-start items-center md:flex-row lg:items-start justify-center px-2 lg:px-1 gap-x-8 min0:gap-x-28 max-md3:mt-8 max-md:mt-0  mt-8  lg:mt-20  ">
+      <div className="w-full bg-[#F5F5F5] h-auto pt-4 lg:pt-0 flex flex-col md:items-start items-center md:flex-row lg:items-start justify-center px-2 lg:px-1 gap-x-8 min0:gap-x-28 max-md3:mt-8 max-md:mt-0  mt-8  lg:mt-20  ">
         <div className="flex flex-col  items-center lg:items-start justify-start  w-full md:w-[470px] h-auto md:h-[350px] ">
           <div className="relative">
             <h1
