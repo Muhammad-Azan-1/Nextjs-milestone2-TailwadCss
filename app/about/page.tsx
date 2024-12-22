@@ -28,7 +28,8 @@ const About = () => {
         </div>
       </div>
 
-      <div className="w-full bg-[#F5F5F5] h-auto lg:pt-0 flex flex-col md:items-start items-center md:flex-row justify-center  lg:px-1 gap-x-8 px-2  min0:gap-x-28 pt-10  md:pt-20">
+      <div className="w-full bg-[#F5F5F5] h-auto">
+      <div className="w-full  h-auto  flex flex-col md:items-start items-center md:flex-row justify-center  lg:px-1 gap-x-8 px-2 min0:gap-x-28  pt-20">
         <div className="flex flex-col pt-3 lg:pt-0 items-center md:items-start justify-start lg:justify-center w-full md:w-[470px] h-auto md:h-[350px] ">
           <div className="relative">
             <h1
@@ -52,7 +53,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="mt-14 md:mt-0">
+        <div className="pt-8 md:pt-0">
           <Image
             src="/aboutus.jpg"
             alt="ABout us"
@@ -65,7 +66,7 @@ const About = () => {
 
       {/*//? box two */}
 
-      <div className="w-full bg-[#F5F5F5] h-auto pt-4 lg:pt-0 flex flex-col md:items-start items-center md:flex-row lg:items-start justify-center px-2 lg:px-1 gap-x-8 min0:gap-x-28 max-md3:mt-8 max-md:mt-0  mt-8  lg:mt-20  ">
+      <div className="w-full  h-auto pt-4 lg:pt-0 flex flex-col md:items-start items-center md:flex-row lg:items-start justify-center px-2 lg:px-1 gap-x-8 min0:gap-x-28 max-md3:mt-8 max-md:mt-0  mt-8  lg:mt-28 pb-20 md:pb-10  ">
         <div className="flex flex-col  items-center lg:items-start justify-start  w-full md:w-[470px] h-auto md:h-[350px] ">
           <div className="relative">
             <h1
@@ -129,6 +130,7 @@ const About = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

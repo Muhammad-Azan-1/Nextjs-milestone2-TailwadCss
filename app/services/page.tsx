@@ -38,7 +38,8 @@ function Services() {
       </div>
 
       {/* content page */}
-      <div className="w-full bg-[#F5F5F5] h-auto">
+      <div className="w-full bg-[#F5F5F5] h-auto pb-20">
+      <div className="w-full h-auto">
         <div className="h-[100%] w-full pt-[70px]">
           <h1
             className={`${Mont.className} text-center relative text-[20px] sm:text-[25px] md:text-[34px]  tracking-wide text-[#191919] font-[700] font-Mont`}
@@ -257,6 +258,7 @@ function Services() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

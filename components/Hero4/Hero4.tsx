@@ -14,7 +14,7 @@ const Mont = Montserrat({
 const Hero4 = () => {
   return (
     <>
-      <div className="w-full h-auto lg:h-full items-center  lg:items-start flex-col lg:flex-row px-1 flex justify-center gap-x-6 min1:px-0 min1:gap-x-8 pt-20">
+      <div className="w-full h-auto lg:h-full items-center  lg:items-start flex-col lg:flex-row px-1 flex justify-center gap-x-6 min1:px-0 min1:gap-x-8 pb-20 pt-20">
         <div className="w-full lg:w-[350px] h-auto lg:h-[630px] items-center lg:items-start flex flex-col justify-start gap-y-8 lg:gap-y-12">
           <div className="relative">
             <h1

@@ -35,7 +35,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="w-full bg-[#F5F5F5] h-auto pt-20 md:pt-28 flex flex-col gap-y-14 sm:gap-y-16 md:gap-y-0 md:flex-row justify-center gap-x-12 lg:gap-x-16 px-2  items-center">
+      <div className="w-full bg-[#F5F5F5] h-auto pt-20 md:pt-28 flex flex-col gap-y-14 sm:gap-y-16 md:gap-y-0 md:flex-row justify-center gap-x-12 lg:gap-x-16 px-2 pb-16 md:pb-20 items-center">
         <div className="w-full sm:w-[565px] h-[470px]   flex flex-col">
           <div>
             <h1
@@ -47,17 +47,17 @@ const page = () => {
 
           <div className="pt-8 flex flex-col items-center md:items-start justify-evenly h-[330px]">
             <input
-              className="border-[1px] pl-3 w-[90%] h-[50px] md:w-full border-[#dddddd]"
+              className="border-[1px] pl-3 w-[95%] h-[50px] md:w-full border-[#dddddd]"
               type="text"
               placeholder="Your Name"
             />
             <input
-              className="border-[1px] pl-3 w-[90%] h-[50px] md:w-full border-[#dddddd]"
+              className="border-[1px] pl-3 w-[95%] h-[50px] md:w-full border-[#dddddd]"
               type="text"
               placeholder="Your Email"
             />
             <textarea
-              className="border-[1px] pl-3 pt-3 w-[90%] md:w-full  border-[#dddddd]"
+              className="border-[1px] pl-3 pt-3 w-[95%] md:w-full  border-[#dddddd]"
               placeholder="Message"
               rows={5}
               cols={40}

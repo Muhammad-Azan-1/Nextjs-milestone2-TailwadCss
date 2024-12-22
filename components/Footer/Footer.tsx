@@ -15,7 +15,7 @@ import {
 const Footer = () => {
   return (
     <>
-        <div  className="w-full text-white  bg-[#404040] h-auto mt-28 pt-12"> 
+        <div  className="w-full text-white  bg-[#404040] h-auto  pt-12"> 
             <div className="pb-6 w-full flex justify-center gap-x-16 px-2 gap-y-12 lg:gap-y-0 lg:px-0 lg:gap-x-0 lg:justify-evenly flex-wrap h-full items-start">
             <ul className={` leading-7`}>
             <li className="mb-3 logo">

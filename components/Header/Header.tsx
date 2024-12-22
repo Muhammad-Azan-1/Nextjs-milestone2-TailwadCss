@@ -40,7 +40,7 @@ const Header = () => {
         <div className="inline-block md:hidden h-[41px] w-[41px] p-[10px] rounded-sm text-center md:bg-none bg-primary border-[1px] border-primary">
           <FontAwesomeIcon
             onClick={toggleMenu}
-            className="text-white text-[20px] absolute top-[31px] right-[20px]"
+            className="text-white text-[20px] absolute top-[31px] right-[19px]"
             icon={faBars}
           />
         </div>
